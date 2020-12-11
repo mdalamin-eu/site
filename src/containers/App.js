@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './Header.js'
+import Footer from './Footer.js'
+
+export const ColorScheme = {
+  primary: 'red',
+  secondary: 'blue',
+  third: 'purple',
+  fourth: 'goldenrod'
+}
+
+const AppDiv = styled.div`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 1.15em;
+`;
+
+export const CenteredHeader = styled.h5`
+  text-align: center;
+  margin-bottom: 1.25em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15em;
+`
+
+
+const ContainerDiv = styled.div`
+  margin: 1% 17% 3% 17%;
+  flex: 1;
+  font-family: 'Open Sans', sans-serif;
+`
+
+class App extends Component {
+  render() {
+    return (
+      <AppDiv>
+        <Header />
+        <ContainerDiv>
+          {this.props.children}
+        </ContainerDiv>
+        <Footer />
+      </AppDiv>
+    );
+  }
 }
 
 export default App;

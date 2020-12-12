@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import styled from 'styled-components';
 
 const ProfileImage = styled.img`
@@ -32,7 +32,7 @@ class Header extends Component {
     return (
       <HeaderDiv>
         <Link to="/">
-          <ProfileImage src={require('../assets/alamin.png')} alt='Md Alamin'/>
+        <ProfileImage src={require('../assets/alamin.png')} alt='Md Alamin'/>
           <ProfileTitle>Md Alamin</ProfileTitle>
         </Link>
         <div>

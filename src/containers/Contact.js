@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
-import { PortButton } from './Skill.js'
+import { PortButton } from './Skills'
 
 const FormDiv = styled.div`
   margin: 0 auto;

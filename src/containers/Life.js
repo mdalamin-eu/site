@@ -55,7 +55,7 @@ class Life extends Component {
 
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/dubai.png')} />
+              <LifeThumbnail src={require('../assets/Dubai.png')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>

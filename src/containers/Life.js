@@ -55,7 +55,7 @@ class Life extends Component {
 
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/dubai.jpg')} />
+              <LifeThumbnail src={require('../assets/dubai.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
@@ -71,7 +71,7 @@ class Life extends Component {
 
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/travel2.jpg')} />
+              <LifeThumbnail src={require('../assets/travel2.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
@@ -88,7 +88,7 @@ class Life extends Component {
          
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/football.jpg')} />
+              <LifeThumbnail src={require('../assets/football.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
@@ -96,7 +96,7 @@ class Life extends Component {
 
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/uni.jpg')} />
+              <LifeThumbnail src={require('../assets/uni.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>

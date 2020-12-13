@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { CenteredHeader } from './App.js'
 
 const LifeThumbnail = styled.img`
-  width: 70%;
+  width: 50%;
   display: block;
   margin: 0 auto;
 `;

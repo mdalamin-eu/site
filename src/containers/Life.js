@@ -52,15 +52,7 @@ class Life extends Component {
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
-
-          <div className="col-md-6 col-sm-12">
-            <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/Dubai.png')} />
-              <LifeHeader></LifeHeader>
-            </a>
-            <LifeProjectBlurb></LifeProjectBlurb>
-          </div>
-
+          
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/travel.jpg')} />
@@ -69,13 +61,23 @@ class Life extends Component {
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
 
-          <div className="col-md-6 col-sm-12">
+          {/* <div className="col-md-6 col-sm-12">
+            <a href="" target="_blank">
+              <LifeThumbnail src={require('../assets/Dubai.png')} />
+              <LifeHeader></LifeHeader>
+            </a>
+            <LifeProjectBlurb></LifeProjectBlurb>
+          </div> */}
+
+         
+
+          {/* <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/travel2.png')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div>
+          </div> */}
        
 
         <div className="col-md-6 col-sm-12">
@@ -86,7 +88,7 @@ class Life extends Component {
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
          
-          <div className="col-md-6 col-sm-12">
+          {/* <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/football.png')} />
               <LifeHeader></LifeHeader>
@@ -100,7 +102,7 @@ class Life extends Component {
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div>
+          </div> */}
          
         </LifeRow>
         {/*Row 2*/}

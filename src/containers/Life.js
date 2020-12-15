@@ -52,32 +52,30 @@ class Life extends Component {
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
-          
+
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/travel.jpg')} />
+              <LifeThumbnail src={require('../assets/Dubai.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
 
-          {/* <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/Dubai.png')} />
+              <LifeThumbnail src={require('../assets/Travel.jpg')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div> */}
+          </div>
 
-         
-
-          {/* <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/travel2.png')} />
+              <LifeThumbnail src={require('../assets/travel2.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div> */}
+          </div>
        
 
         <div className="col-md-6 col-sm-12">
@@ -88,9 +86,9 @@ class Life extends Component {
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
          
-          {/* <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/football.png')} />
+              <LifeThumbnail src={require('../assets/football.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
@@ -98,11 +96,11 @@ class Life extends Component {
 
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/uni.png')} />
+              <LifeThumbnail src={require('../assets/uni.JPG')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div> */}
+          </div>
          
         </LifeRow>
         {/*Row 2*/}

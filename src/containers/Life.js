@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { CenteredHeader } from './App.js'
 
 const LifeThumbnail = styled.img`
-  width: 50%;
+  width: 70%;
   display: block;
   margin: 0 auto;
 `;
@@ -77,13 +77,13 @@ class Life extends Component {
             <LifeProjectBlurb></LifeProjectBlurb>
           </div>
        
-          <div className="col-md-6 col-sm-12">
+          {/* <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/travel2_50.png')} />
               <LifeHeader></LifeHeader>
             </a>
             <LifeProjectBlurb></LifeProjectBlurb>
-          </div>
+          </div> */}
 
         <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">

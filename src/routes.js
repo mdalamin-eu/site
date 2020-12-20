@@ -6,6 +6,7 @@ import Home from './containers/Home'
 import Skill from './containers/Skills'
 import Work from './containers/Work'
 import Life from './containers/Life'
+import Education from './containers/Education'
 import Contact from './containers/Contact'
 
 export default (
@@ -15,6 +16,7 @@ export default (
         <Route path='/skill' component={Skill} />
         <Route path='/work' component={Work} />
         <Route path='/life' component={Life} />
+        <Route path='/education' component={Education} />
         <Route path='/contact' component={Contact} />
       </Route>
     </Router>

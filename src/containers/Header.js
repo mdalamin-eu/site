@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
+// import Education from './Education';
 
 const ProfileImage = styled.img`
   width: 12em;
@@ -39,6 +40,7 @@ class Header extends Component {
           <NavLink to='/'>ABOUT</NavLink>
           <NavLink to='/skill'>SKILL</NavLink>
           <NavLink to='/work'>PROJECTS</NavLink>
+          <NavLink to='/education'>EDUCATION</NavLink>
           <NavLink to='/life'>LIFE</NavLink>
           <NavLink to='/contact'>CONTACT</NavLink>
         </div>

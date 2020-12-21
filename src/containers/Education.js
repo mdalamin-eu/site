@@ -58,7 +58,7 @@ class Education extends Component {
           
           <h5> <storng>They are part of the curriculum structure following disciplines:</storng></h5>
 
-          <h5>Embeded System and PLC, Programming Languge C, C++, C#, Java and SQL, IOT
+          <h5>Embeded System and PLC, Programming Languge C, C++, C#, Java and SQL, IOT, AWS
           </h5>
         
         </p>

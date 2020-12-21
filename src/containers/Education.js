@@ -56,7 +56,16 @@ class Education extends Component {
 
           <h6>
             <ul type="square">
-              <li>Embeded System and PLC,</li> <li>Programming Languge C,</li>C++, C#, Java and SQL</ul>
+              <li>Object-Oriented Programming</li>
+              <li>Object-Oriented Modeling</li>
+               <li>C Programming Language</li>
+               <li>C++ Programming Language</li>
+               <li>CCNA R&S: Introduction to Networks</li>
+               <li>Algorithms and Data Structures</li>
+               <li>Embedded Software</li>
+               <li>Software Engineering</li>
+
+               </ul>
           </h6>
         
         </p>
@@ -68,7 +77,14 @@ class Education extends Component {
               They are part of the curriculum structure following disciplines:</h6>
             <h6>
               <ul type="square">
-              <li>Embeded System and PLC,</li> <li>Programming Languge C,</li>C++, C#, Java and SQL</ul>
+              <li>Microprocessor and Microcomputer</li>
+              <li>Computer Architecture</li>
+              <li>Computer Peripherals</li>
+               <li>Database Management System</li>
+               <li>Computer System Software</li>
+               <li>Discrete Mathematics</li>
+               <li>System Analysis Design and Development</li>
+               </ul>
           </h6>
         </p>
       </div>

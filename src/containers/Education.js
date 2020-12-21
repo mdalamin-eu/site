@@ -50,11 +50,13 @@ class Education extends Component {
         
         <p  style={{ 'font-size': '15px' }}>
         <i>Bachelor of Engineering, Information Technology</i>
-        <h6>The course is aimed at the three major areas of Software Engineering, Network Engineering, and Industrial knowledge. </h6>
+        <h6>The course is aimed at the three major areas of Software Engineering, Network Engineering, and Industrial knowledge. 
+          They are part of the curriculum structure following disciplines:</h6>
           
-          <h6> <storng>They are part of the curriculum structure following disciplines:</storng></h6>
 
-          <h6>Embeded System and PLC, Programming Languge C, C++, C#, Java and SQL, IOT, AWS
+          <h6>
+            <ul type="square">
+              <li>Embeded System and PLC,</li> <li>Programming Languge C,</li>C++, C#, Java and SQL</ul>
           </h6>
         
         </p>
@@ -62,10 +64,11 @@ class Education extends Component {
         <PortTitle>Chittagong Polytechnic Institute <small>(Chittagong, Bangladesh.)</small></PortTitle>
         <p  style={{ 'font-size': '15px' }}>
             <i>4 Years Diploma in Computer Engineering</i>
-            <h6>The degree is divided into three major areas of Computer Network, Software, and Hardware Engineering.</h6>
-          <h6>They are part of the curriculum structure following disciplines:</h6>
+            <h6>The degree is divided into three major areas of Computer Network, Software, and Hardware Engineering.
+              They are part of the curriculum structure following disciplines:</h6>
             <h6>
-              <li>Embeded System and PLC,</li> Programming Languge C, C++, C#, Java and SQL
+              <ul type="square">
+              <li>Embeded System and PLC,</li> <li>Programming Languge C,</li>C++, C#, Java and SQL</ul>
           </h6>
         </p>
       </div>

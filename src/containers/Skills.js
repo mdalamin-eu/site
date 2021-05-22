@@ -78,6 +78,7 @@ class Code extends Component {
               <li>Git</li>
                 <li>JSON</li>
                 <li>Rest API</li>
+                <li>Oracle</li>
                 
                 
               </ul>
